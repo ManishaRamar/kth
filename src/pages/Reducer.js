@@ -19,7 +19,6 @@ export default function Reducer() {
 
         <button onClick={() => dispach({type: "INCREMENT"})}>Add</button>
         <button onClick={() => dispach({type: "DECREMENT"})}>Sub</button>
-        <button></button>
     </div>
   );
 }

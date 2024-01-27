@@ -27,12 +27,19 @@ import Counter from './pages/Counter'
 import Effect from './pages/Effect'
 import Reducer from './pages/Reducer'
 import Callback from './pages/Callback'
+import Ref from './pages/Ref'
+import CounterComponent from './pages/CounterComponent'
+import Memo from './pages/Memo'
 
 export default function App() {
   return (
-    <div><Counter/>
+    <div>
+    <Counter/>
     <Effect/>
     <Reducer/>
-    <Callback/></div>
+    <Callback/>
+    <Ref/>
+    <CounterComponent/>
+    <Memo/></div>
   )
 }
